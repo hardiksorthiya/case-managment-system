@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --primary-color: #2c6fb3;
+    --secondary-color: #f3f4f6;
+    --text-color: #111827;
+    --font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6;
+    color: #111827;
+}
+h1, h2, h3, h4, h5, h6, p, a, span {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+
+
+
+
+
+/* sidebar */
+
+.sidebar {
+    background-color: #1f2937;
+    color: white;
+    height: 100vh;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #374151;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0 10px 10px;
+}
+
+.logo svg {
+    width: 38px;
+    max-height: 38px;
+}
+
+path.logo-icon {
+    fill: var(--primary-color);
+}
+
+.logo-text {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.sidebar.open {
+    width: 250px;
+}
+
+.sidebar.collapsed {
+    width: 60px;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: background 0.2s;
+    width: 100%;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.sidebar-label {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+
+
+
+/* main section */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    transition: all 0.3s ease;
+}
+section#main-content {
+    padding: 20px;
+}
+.main-section.sidebar-open {
+    position: relative;
+    background: var(--secondary-color);
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section.sidebar-closed {
+    width: calc(100% - 60px);
+}
+
+/* header */
+header#header {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: poppins;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* active Cases */
+
+.square {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .square-open {
+    background-color: #0d6efd; /* Bootstrap primary */
+  }
+  
+  .square-pending {
+    background-color: #0dcaf0; /* Bootstrap info */
+  }
+  
+  .square-closed {
+    background-color: #6c757d; /* Bootstrap secondary */
+  }
+  span.status-active-status-text {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.number-activecases {
+    font-size: 28px;
+    font-family: 'Poppins';
+    color: var(--text-color);
+    font-weight: 500;
+}
+.title-card {
+    font-size: 24px;
+}
+h2.totalactivcashes {
+    font-size: 42px;
+}
+
+/* UpcomingTask */
+.task-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }

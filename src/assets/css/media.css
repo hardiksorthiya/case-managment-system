@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .sidebar {
+      width: 70px !important;
+    }
+  
+    .sidebar .logo-text,
+    .sidebar-label {
+      display: none !important;
+    }
+  
+    .sidebar .logo {
+      justify-content: center;
+    }
+  
+    .sidebar-link {
+      justify-content: center;
+    }
+    .main-section.sidebar-open{
+        margin-left: 70px !important;
+    }
+    .main-section.sidebar-open{
+        width: calc(100% - 70px);
+    }
+    section#main-content, header#header {
+        padding: 0px !important;
+    }
+    header#header {
+        margin-bottom: 15px;
+    }
+    span.status-active-status-text {
+        margin-left: 0px;
+    }
+  }
