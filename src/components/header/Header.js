@@ -36,7 +36,7 @@ const Header = () => {
 
                         <div className="profile-container dropdown-toggle" ref={dropdownRef} onClick={toggleDropdown}>
                             <img
-                                src="../assets/images/avtar.png"
+                                src="./assets/images/avtar.png"
                                 alt="Profile"
                                 className="img-fluid rounded-circle cursor-pointer"
 
