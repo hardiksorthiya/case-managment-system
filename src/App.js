@@ -14,7 +14,7 @@ function App() {
   const toggleSidebar = () => setSidebarOpen(!isSidebarOpen);
 
   return (
-    <Router>
+    <Router basename='/case-managment-system'>
       <div className="app-container">
         <Sidebar isOpen={isSidebarOpen} />
         <div className={`main-section ${isSidebarOpen ? 'sidebar-open' : 'sidebar-closed'}`}>
