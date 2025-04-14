@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Sidebar from './components/sidebar/Sidebar';
 import Header from './components/header/Header';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {Dashboard} from './Dashboard/Dashboard';
 
 
