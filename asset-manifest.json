@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cash-management-system/static/css/main.1201985f.css",
+    "main.js": "/cash-management-system/static/js/main.d82f7697.js",
+    "static/js/453.48469e81.chunk.js": "/cash-management-system/static/js/453.48469e81.chunk.js",
+    "index.html": "/cash-management-system/index.html",
+    "main.1201985f.css.map": "/cash-management-system/static/css/main.1201985f.css.map",
+    "main.d82f7697.js.map": "/cash-management-system/static/js/main.d82f7697.js.map",
+    "453.48469e81.chunk.js.map": "/cash-management-system/static/js/453.48469e81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1201985f.css",
+    "static/js/main.d82f7697.js"
+  ]
+}
