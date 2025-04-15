@@ -11,11 +11,13 @@ body {
     background-color: #f3f4f6;
     color: #111827;
 }
-h1, h2, h3, h4, h5, h6, p, a, span {
+h1, h2, h3, h4, h5, h6, p, a, span, table {
     font-family: 'poppins', sans-serif;
     margin: 0;
 }
-
+.mr-2{
+    margin-right: 0.5rem;
+}
 
 
 

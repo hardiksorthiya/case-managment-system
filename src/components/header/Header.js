@@ -36,7 +36,7 @@ const Header = () => {
 
                         <div className="profile-container dropdown-toggle" ref={dropdownRef} onClick={toggleDropdown}>
                             <img
-                                src="./assets/images/avtar.png"
+                                src={`${process.env.PUBLIC_URL}/assets/images/avtar.png`}
                                 alt="Profile"
                                 className="img-fluid rounded-circle cursor-pointer"
 
@@ -58,7 +58,7 @@ const Header = () => {
             </div>
         </div>
 
-                );
+    );
 };
 
-                export default Header;
+export default Header;
